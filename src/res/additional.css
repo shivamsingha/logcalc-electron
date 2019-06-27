@@ -1,0 +1,33 @@
+body {
+  background: #2A2B30;
+  padding: 10vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body-alt {
+  width: 75vw!important;
+  text-align: center;
+}
+
+.head-col {
+  background: #65b2ff!important;
+}
+
+.in-col {
+  background: #25598d!important;
+  padding: 2%!important;
+}
+
+.out-col {
+  background: #98d9ff!important;
+  padding: 2%!important;
+}
+
+.but-col {
+  background: #0065ca!important;
+  color: #fff!important;
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  padding: 2%;
+}

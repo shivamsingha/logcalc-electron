@@ -1,17 +1,30 @@
 {
   "name": "log",
   "version": "1.0.0",
+  "description": "Log Calculator",
   "main": "index.js",
   "author": "shivamsingha",
   "license": "UNLICENSED",
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "yarn install && electron ./src/app",
+    "pack": "build --dir",
+    "dist": "build"
   },
+  "keywords": [
+    "electron"
+  ],
   "devDependencies": {
     "electron": "^5.0.6",
     "electron-builder": "^20.44.4",
     "electron-builder-squirrel-windows": "^21.0.3"
+  },
+  "build": {
+    "appId": "electron.log",
+    "productName": "Logarithm Calculator",
+    "win": {
+      "target": "squirrel",
+      "icon": "./src/res/i.ico"
+    }
   }
 }
